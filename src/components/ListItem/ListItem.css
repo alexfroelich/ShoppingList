@@ -1,0 +1,63 @@
+.no-border-bottom {
+    border-bottom: none;
+}
+.border-bottom {
+    border-bottom: solid black 1px;
+}
+.list-item-container {
+    display: flex;
+    margin-right: 0%;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+  
+.delete-button {
+    float: right;
+    max-height: 50px;
+    margin-right: 10%;
+    border: none;
+    background-color: rgb(255, 50, 50);
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 1px #999;
+    
+}
+.delete-button:active {
+    box-shadow: 0px 0px #666;
+    transform: translateY(1px);
+}
+.delete-button:hover {
+    cursor: pointer;
+}
+.list-item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    text-transform: capitalize;
+    margin-left: 10%;
+   
+}
+.list-item:hover {
+    cursor: pointer;
+    outline: none;
+}
+.completed-list-item {
+    text-decoration: line-through;
+    color: #666;
+    outline: none;
+}
+@media only screen and (max-width: 900px) {
+    .list-item:hover {
+        cursor: default;
+        outline: none;
+    }
+    .button-quantity:hover {
+        cursor: default;
+        outline: none;
+    }
+      .delete-button:hover {
+        cursor: default;
+        outline: none;
+    }
+}

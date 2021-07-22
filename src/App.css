@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(243, 139, 160);
+ 
+}
+h1, p {
+
+  font-family: inherit;
+  color: rgb(22, 21, 21);
+}
+h1 {
+  margin-bottom: 10%;
+}
+p {
+  font-size: 24px;
+}
+.main-app-div {
+  margin: auto;
+  margin-top: 1%;
+  text-align: center;
+  width: 50%;
+  max-width: 600px;
+  min-width: 600px;
+  background-color: rgb(237, 246, 229);
+  border: solid rgb(51, 50, 50) 1px;
+  box-shadow: rgb(37, 37, 37) 5px 5px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  body {
+    
+    background-color: rgb(243, 139, 160);
+  }
+  h1, p {
+    color: rgb(27, 27, 27);
+  }
+  
+  .main-app-div {
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    width: 50%;
+    max-width: 400px;
+    min-width: 300px;
+    background-color: rgb(237, 246, 229);
+    border: solid rgb(51, 50, 50) 1px;
+  }
+}
+
